@@ -1,3 +1,13 @@
+body {
+  font-family: 'Titillium Web', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 #projects {
   margin-top: 17vh;
   margin-bottom: 17vh;
@@ -14,6 +24,7 @@
 
 #info-section {
   text-align: center;
+  border-right-style: inset;
 }
 
 ul {
