@@ -1,0 +1,29 @@
+#projects {
+  margin-top: 17vh;
+  margin-bottom: 17vh;
+}
+
+#completed-curriculums {
+  margin-top: 17vh;
+  margin-bottom: 17vh;
+}
+
+#profile-img {
+  clip-path: circle();
+}
+
+#info-section {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#experience-section {
+
+}
+
+#technical-skills-section {
+  
+}
