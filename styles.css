@@ -2,6 +2,10 @@ body {
   font-family: 'Titillium Web', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+h6 {
+  font-weight: bold;
+}
+
 .titillium-web-light {
   font-family: "Titillium Web", sans-serif;
   font-weight: 300;
