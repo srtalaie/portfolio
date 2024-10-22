@@ -31,14 +31,10 @@ h6 {
   border-right-style: inset;
 }
 
-ul {
+#experience-section ul {
   list-style-type: none;
 }
 
-#experience-section {
-
-}
-
 #technical-skills-section {
-  
+  list-style-type: circle;
 }
