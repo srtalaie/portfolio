@@ -6,13 +6,18 @@ import '@fontsource/source-code-pro/500.css'
 import '@fontsource/source-code-pro/700.css'
 import './App.css'
 
+import About from './components/About'
 import NavBar from './components/NavBar'
 
 function App() {
   return (
-    <Container>
+    <>
       <NavBar />
-    </Container>
+      <Container>
+        <About />
+      </Container>
+    </>
+
   )
 }
 
