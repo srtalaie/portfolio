@@ -4,14 +4,10 @@ import Typography from "@mui/material/Typography"
 
 import ProfilePic from "../assets/profile.jpg"
 
-const profilePicStyle = {
-  clipPath: "circle()"
-}
-
 const About = () => {
   return (
     <Grid2 container sx={{ justifyContent: "center", alignItems: "center" }} spacing={5}>
-      <Box component="section" sx={profilePicStyle}>
+      <Box component="section" sx={{ clipPath: "circle()" }}>
         <img src={ProfilePic} alt="profile-img" id="profile-img" />
       </Box>
       <Box component="section">
