@@ -1,4 +1,5 @@
 import { Menu } from "@mui/icons-material"
+import { Typography } from "@mui/material"
 import AppBar from "@mui/material/AppBar"
 import Box from "@mui/material/Box"
 import Button from "@mui/material/Button"
@@ -14,7 +15,7 @@ import Toolbar from "@mui/material/Toolbar"
 import { useState } from "react"
 
 const drawerWidth = 240
-const navItems = ['Home', 'About', 'Projects', 'Resume']
+const navItems = ['About', 'Skills', 'Projects', 'Contact']
 
 const NavBar = () => {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -41,7 +42,7 @@ const NavBar = () => {
   const container = window !== undefined ? () => window.document.body : undefined
 
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ display: 'flex', marginBottom: '5vh' }}>
       <AppBar component="nav" sx={{ backgroundColor: "#494545" }}>
         <Toolbar>
           <IconButton
@@ -56,7 +57,14 @@ const NavBar = () => {
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item} sx={{ color: '#fff' }}>
-                {item}
+                <Typography component='a' href={`#${item.toLowerCase()}`} sx={{
+                  mr: 2,
+                  flexGrow: 1,
+                  fontWeight: 700,
+                  letterSpacing: '.3rem',
+                  color: 'inherit',
+                  textDecoration: 'none',
+                }}>{item}</Typography>
               </Button>
             ))}
           </Box>

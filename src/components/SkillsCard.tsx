@@ -7,14 +7,16 @@ interface SkillsCardProps {
 
 const SkillsCard: React.FC<SkillsCardProps> = ({ title, skills }) => {
   return (
-    <Card>
+    <Card sx={{ background: "rgb(54 53 53)" }}>
       <CardContent>
         <Typography>{title}</Typography>
         <List>
           {skills.map((skill) => (
             <ListItem key={skill.name}>
               <ListItemIcon>
-                <embed width="50" height="50" src={skill.icon} />
+                <svg width="50" height="50">
+                  <image href={skill.icon} width="50" height="50" />
+                </svg>
               </ListItemIcon>
               <ListItemText primary={skill.name} secondary={null} />
             </ListItem>

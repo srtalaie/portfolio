@@ -9,7 +9,7 @@ export const misc = [
     "icon": gitSVG,
   },
   {
-    "name": "Atlassian Suite",
+    "name": "Atlassian",
     "icon": atlSVG,
   },
   {

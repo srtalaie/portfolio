@@ -10,7 +10,7 @@ const About = () => {
       <Box component="section" sx={{ clipPath: "circle()" }}>
         <img src={ProfilePic} alt="profile-img" id="profile-img" />
       </Box>
-      <Box component="section">
+      <Box component="section" id="about">
         <Typography>
           Web developer with a passion for creating elegant, mobile
           responsive, functional websites. Fast learner, creative and resourceful with a penchant for
