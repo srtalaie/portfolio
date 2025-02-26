@@ -1,8 +1,8 @@
-import graphqlSVG from "../icons/graphql.svg"
-import mongoSVG from "../icons/mongodb.svg"
-import mysqlSVG from "../icons/mysql.svg"
-import nodeSVG from "../icons/node.svg"
-import postgresSVG from "../icons/postgres.svg"
+import graphqlSVG from "../../icons/graphql.svg"
+import mongoSVG from "../../icons/mongodb.svg"
+import mysqlSVG from "../../icons/mysql.svg"
+import nodeSVG from "../../icons/node.svg"
+import postgresSVG from "../../icons/postgres.svg"
 
 export const backend = [
   {

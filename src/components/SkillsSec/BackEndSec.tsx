@@ -1,4 +1,4 @@
-import { backend } from "../../assets/lists/backend-techs"
+import { backend } from "../../assets/lists/Skills/backend-techs"
 import SkillsCard from "../SkillsCard"
 
 const BackEndSec = () => {

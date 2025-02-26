@@ -1,7 +1,7 @@
-import cssSVG from "../icons/css.svg"
-import htmlSVG from "../icons/html.svg"
-import muiSVG from "../icons/materialui.svg"
-import reactSVG from "../icons/react.svg"
+import cssSVG from "../../icons/css.svg"
+import htmlSVG from "../../icons/html.svg"
+import muiSVG from "../../icons/materialui.svg"
+import reactSVG from "../../icons/react.svg"
 
 export const frontend = [
   {

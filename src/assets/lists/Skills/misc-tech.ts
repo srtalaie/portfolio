@@ -1,7 +1,7 @@
-import atlSVG from "../icons/atlassian.svg"
-import cypSVG from "../icons/cypress.svg"
-import gitSVG from "../icons/git.svg"
-import postSVG from "../icons/postman.svg"
+import atlSVG from "../../icons/atlassian.svg"
+import cypSVG from "../../icons/cypress.svg"
+import gitSVG from "../../icons/git.svg"
+import postSVG from "../../icons/postman.svg"
 
 export const misc = [
   {

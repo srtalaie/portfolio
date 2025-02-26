@@ -1,4 +1,4 @@
-import { frontend } from "../../assets/lists/frontend-techs"
+import { frontend } from "../../assets/lists/Skills/frontend-techs"
 import SkillsCard from "../SkillsCard"
 
 const FrontEndSec = () => {

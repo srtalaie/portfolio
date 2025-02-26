@@ -1,4 +1,4 @@
-import { langs } from "../../assets/lists/programming-langs"
+import { langs } from "../../assets/lists/Skills/programming-langs"
 import SkillsCard from "../SkillsCard"
 
 const ProgrammingLangsSec = () => {

@@ -8,6 +8,7 @@ import './App.css'
 
 import About from './components/About'
 import NavBar from './components/NavBar'
+import ProjectsSec from './components/ProjectsSec'
 import SkillsMain from './components/SkillsSec/SkillsMain'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Container>
         <Grid2 container component={About} />
         <Grid2 container component={SkillsMain} />
+        <Grid2 container component={ProjectsSec} />
       </Container>
     </>
 

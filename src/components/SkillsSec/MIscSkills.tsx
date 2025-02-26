@@ -1,4 +1,4 @@
-import { misc } from "../../assets/lists/misc-tech"
+import { misc } from "../../assets/lists/Skills/misc-tech"
 import SkillsCard from "../SkillsCard"
 
 const MiscSkills = () => {
