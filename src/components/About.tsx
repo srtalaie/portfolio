@@ -6,7 +6,7 @@ import ProfilePic from "../assets/profile.jpg"
 
 const About = () => {
   return (
-    <Grid2 container sx={{ justifyContent: "center", alignItems: "center" }} spacing={5}>
+    <Grid2 container sx={{ justifyContent: "center", alignItems: "center", minHeight: "100vh", alignContent: "space-around" }} spacing={5}>
       <Box component="section" sx={{ clipPath: "circle()" }}>
         <img src={ProfilePic} alt="profile-img" id="profile-img" />
       </Box>

@@ -1,0 +1,3 @@
+- Add backgrounds (i.e. brushed steel) to cards or site bg
+- Add animation effects
+- Contact section
