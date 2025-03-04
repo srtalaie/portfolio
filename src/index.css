@@ -5,7 +5,12 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -52,6 +57,14 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+#skills-card {
+background: rgb(124, 124, 124);
+background: -moz-linear-gradient(90deg, rgba(124, 124, 124, 1) 0%, rgba(255, 255, 255, 1) 23%, rgba(187, 187, 187, 1) 25%, rgba(119, 123, 131, 1) 42%, rgba(157, 159, 165, 1) 75%, rgba(255, 255, 255, 1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(124, 124, 124, 1) 0%, rgba(255, 255, 255, 1) 23%, rgba(187, 187, 187, 1) 25%, rgba(119, 123, 131, 1) 42%, rgba(157, 159, 165, 1) 75%, rgba(255, 255, 255, 1) 100%);
+background: linear-gradient(90deg, rgba(124, 124, 124, 1) 0%, rgba(255, 255, 255, 1) 23%, rgba(187, 187, 187, 1) 25%, rgba(119, 123, 131, 1) 42%, rgba(157, 159, 165, 1) 75%, rgba(255, 255, 255, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7c7c7c", endColorstr="#ffffff", GradientType=1);
 }
 
 @media (prefers-color-scheme: light) {

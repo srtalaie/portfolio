@@ -1,4 +1,4 @@
-import { Box, Grid2 } from "@mui/material"
+import { Box, Grid2, Typography } from "@mui/material"
 
 import { projects } from "../assets/lists/Projects/projects"
 import ProjectCard from "./ProjectCard"
@@ -6,6 +6,7 @@ import ProjectCard from "./ProjectCard"
 const ProjectsSec = () => {
   return (
     <Box id="projects" sx={{ minHeight: "100vh", alignContent: "space-around" }}>
+      <Typography variant="h3">projects</Typography>
       <Grid2 container justifyContent={"center"} spacing={5}>
         {projects.map((project) => (
           <Grid2>
