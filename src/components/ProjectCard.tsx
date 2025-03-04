@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ name, desc, img, repo, url })
     bgColor = `rgb(${red}, ${green}, ${blue})`
   }
   return (
-    <Card sx={{ maxWidth: 345, maxHeight: 445 }}>
+    <Card sx={{ maxWidth: 345, maxHeight: 335, minHeight: 335, minWidth: 345 }}>
       <CardMedia
         sx={{ height: 140, backgroundColor: bgColor }}
         image={img ? (img) : (null)}

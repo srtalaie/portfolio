@@ -7,6 +7,7 @@ import '@fontsource/source-code-pro/700.css'
 import './App.css'
 
 import About from './components/About'
+import Contact from './components/Contact'
 import NavBar from './components/NavBar'
 import ProjectsSec from './components/ProjectsSec'
 import SkillsMain from './components/SkillsSec/SkillsMain'
@@ -19,6 +20,7 @@ function App() {
         <Grid2 container component={About} />
         <Grid2 container component={SkillsMain} />
         <Grid2 container component={ProjectsSec} />
+        <Grid2 container component={Contact} />
       </Container>
     </>
 
