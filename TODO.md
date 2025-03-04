@@ -1,4 +1,5 @@
 - ~~Add backgrounds (i.e. brushed steel) to cards or site bg~~
 - Add animation effects
 - ~~Contact section~~
-- Add section titles on actual page
+- ~~Add section titles on actual page~~
+  - Orient titles correctly
