@@ -7,7 +7,7 @@ interface SkillsCardProps {
 
 const SkillsCard: React.FC<SkillsCardProps> = ({ title, skills }) => {
   return (
-    <Card sx={{ background: "rgb(54 53 53)" }} id="skills-card">
+    <Card sx={{ background: "rgb(54 53 53)" }} className="card-shine-effect-metal" id="skills-card">
       <CardContent>
         <Typography>{title}</Typography>
         <List>
