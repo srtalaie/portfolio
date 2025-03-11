@@ -5,8 +5,8 @@ import ProjectCard from "./ProjectCard"
 
 const ProjectsSec = () => {
   return (
-    <Box id="projects" sx={{ minHeight: "100vh", alignContent: "space-around" }}>
-      <Typography variant="h3">projects</Typography>
+    <Box id="projects" sx={{ minHeight: "100vh", alignContent: "space-around", marginTop: "10vh" }}>
+      <Typography sx={{ marginBottom: "5vh" }} variant="h3">projects:</Typography>
       <Grid2 container justifyContent={"center"} spacing={5}>
         {projects.map((project) => (
           <Grid2>

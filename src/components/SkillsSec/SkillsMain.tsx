@@ -8,7 +8,7 @@ import ProgrammingLangsSec from "./ProgrammingLangsSec"
 const SkillsMain = () => {
   return (
     <Box sx={{ minHeight: "100vh", alignContent: "space-around" }} id="skills">
-      <Typography variant="h3">skills</Typography>
+      <Typography variant="h3">skills:</Typography>
       <Grid2 container justifyContent="space-around" spacing={5} margin={3}>
         <ProgrammingLangsSec />
         <FrontEndSec />
