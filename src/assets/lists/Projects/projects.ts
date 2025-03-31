@@ -36,4 +36,11 @@ export const projects = [
     "repo": "https://github.com/srtalaie/TripSplit",
     "url": null,
   },
+  {
+    "name": "Dashboard",
+    "desc": "A simple dashboard made with Toolpad",
+    "img": null,
+    "repo": "https://github.com/srtalaie/dashboard",
+    "url": "https://dashboard-1gj7.onrender.com/",
+  }
 ]
